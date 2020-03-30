@@ -1,0 +1,39 @@
+div{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin: 40px;
+}
+@keyframes slide{
+    from {
+        margin-left: 40px;
+    }
+    to{
+        margin-left: 300px;
+    }
+}
+@keyframes crazyslide{
+    0%{
+        margin-left: 40px;
+    }
+    50%{
+        height: 10px;
+        background-color: red;
+        margin-left: 150px;
+    }
+    100%{
+        margin-left: 300px;
+        background-color: green;
+    }
+}
+#div2:hover +div{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+}
+#div3:hover+div{
+    animation-name: crazyslide;
+    animation-duration: 6s;
+    animation-iteration-count: 10;
+
+}

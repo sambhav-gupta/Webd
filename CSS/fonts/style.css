@@ -1,0 +1,8 @@
+#para1{
+    font-size: 5vh ;/* 1vh = 1/100 of window height */
+}
+#para2{
+    font-family: monospace; 
+    /* in monospace every text has same width  */
+}
+    

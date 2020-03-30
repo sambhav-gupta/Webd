@@ -1,0 +1,28 @@
+div{
+    background-color: cyan;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+/* #div3{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+} */
+p{
+    font-size: 30pt;
+}
+/* #div2{
+    position: fixed;
+    bottom: 50px;
+}
+#div3{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+} */
+#div1{
+    position: sticky;
+    top: 10px;
+
+}
