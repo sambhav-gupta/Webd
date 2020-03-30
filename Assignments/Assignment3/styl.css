@@ -1,0 +1,46 @@
+*{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-left: 15pt;
+    font-size: 35pt;
+    color: white;
+}
+.main{
+    margin-left: 30pt;
+    color: goldenrod;
+    font-size: 55pt;
+}
+.not_main{
+    color:white;
+    font-size: 40pt;
+}
+.uno{
+    color: cyan;
+    font-size: 30pt;
+}
+/* ************************************** */
+.not_main{
+    display: none;
+}
+.uno{
+    display: none;
+}
+/* *************************************** */
+#apple:hover .not_main{
+    display: block;
+}
+#grapes:hover .not_main{
+    display: block;
+}
+#mango:hover .not_main{
+    display: block;
+}
+
+.colour:hover .uno{
+    display: block;
+}
+.price:hover .uno{
+    display: block;
+}

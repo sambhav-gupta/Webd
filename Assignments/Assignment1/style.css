@@ -1,0 +1,121 @@
+*{
+    background-color: black;
+}
+img{
+  
+    height: 600px;
+    width: 600px;
+    border: 15px solid white;
+    /* margin-top: 50px;
+    margin-left: 500px; */
+
+}
+#identity{
+
+    background-color:black;
+    border: 10px solid red;
+    color: white;
+    height: 100px;
+    width: 1150px;
+    font-weight: bold;
+    font-size: 40pt;
+
+}
+#name{
+    display: none;
+    background-color:white;
+    border: 10px solid red;
+    height: 270px;
+    width: 1000px;
+    font-weight: bold;
+    font-size: 40pt;
+}
+#about{
+    background-color: white;
+    border: 10px solid red;
+    height: 120px ;
+    width: 330px;
+    font-size: 80pt;
+    font-weight: bold;  
+}
+.acd{
+   margin-top: 10px;
+  
+    
+    background-color: black;
+    border: 20px solid red;
+    height: 100px ;
+    width: 500px;
+    color: white;
+
+    
+ 
+}
+@keyframes slide{
+    from{
+    
+    }
+    to{
+        
+        border: 10px solid white;
+        background-color: maroon;
+        color: white;
+        margin-left: 1200px;
+        height: 320px;
+        font-size: 45pt;
+        font-weight:bolder;
+        width: 1150px;
+        font-family: 'Times New Roman', Times, serif;
+      
+    }
+}
+@keyframes secondslide{
+    from{
+        margin-left : 0px;
+    
+
+
+    }
+    to{
+        margin-left: 550px;    
+    }
+}
+ol{
+    margin-top: 10px;
+    background-color: black;
+    color:white;
+    font-size: 30pt;
+ font-weight: bold;
+}
+li{
+ background-color: black;
+ margin-right: 10px;
+ 
+ color: white;
+ font-size: 30pt;
+ font-weight: bold;
+}
+#identity:active + #name{
+   
+    animation-name: slide;
+    animation-duration: 2s;
+    display: block;
+ 
+
+}
+
+ul{
+    display: none;
+}
+li:hover >ul{
+    display: block;
+}
+
+
+ul li{
+    border: 10px solid orange;
+width: 500px;
+animation-name: secondslide;
+animation-duration: 2s;
+
+}
