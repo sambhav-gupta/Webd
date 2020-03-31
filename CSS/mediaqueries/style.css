@@ -1,0 +1,27 @@
+#samplediv{
+    height: 300px;
+    width: 300px;
+    background-color:indianred;
+}
+
+@media (max-width : 1500px){
+    #samplediv{
+        background-color: green;
+    }
+
+}
+@media (max-width : 1000px){
+    #samplediv{
+        background-color: black;
+    }
+}
+@media (max-width : 750px){
+    #samplediv{
+        background-color: peru;
+    }
+}
+@media (max-width : 500px){
+    #samplediv{
+        background-color: magenta;
+    }
+}
